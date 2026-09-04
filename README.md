@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://somuai-dev.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-somuai--dev-0284c7?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/soumyajit-ghosh-158b9b285/"><img src="https://img.shields.io/badge/LinkedIn-Soumyajit%20Ghosh-0077b5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/somuai"><img src="https://img.shields.io/badge/GitHub-somuai-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="mailto:23051387@kiit.ac.in"><img src="https://img.shields.io/badge/Email-Contact-ea4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -106,6 +107,8 @@
 
 ### Contact & Collaboration
 
+- LinkedIn: [Soumyajit Ghosh](https://www.linkedin.com/in/soumyajit-ghosh-158b9b285/)
 - Portfolio: [somuai-dev.vercel.app](https://somuai-dev.vercel.app/)
 - GitHub: [@somuai](https://github.com/somuai)
+- Email: [23051387@kiit.ac.in](mailto:23051387@kiit.ac.in)
 - Open to collaboration on foundation model inference kernels, distributed agent orchestration, and open-source infrastructure.
