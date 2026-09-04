@@ -49,6 +49,7 @@
 
 | Organization / Repository | Focus Area | Contribution Highlights | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **Dokploy** (`dokploy`) | Security & Auth | Enforced server-side SSO boundary across passkey, email, and social sign-in | [#5291](https://github.com/Dokploy/dokploy/pull/5291) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Dokploy** (`dokploy`) | Cloud Infrastructure | Allowed `+` and `@` in `readValidDirectory` safe path validation | [#5190](https://github.com/Dokploy/dokploy/pull/5190) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Comet ML** (`opik`) | LLM Evaluation Platform | Unit test coverage for `IsJson` metric evaluation | [#8001](https://github.com/comet-ml/opik/pull/8001) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **First Contributions** (`first-contributions`) | Community Infrastructure | Contributor record and directory onboarding | [#124195](https://github.com/firstcontributions/first-contributions/pull/124195) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
@@ -67,6 +68,7 @@
 
 | Repository | Contribution Highlight | Pull Request | Merged Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **Dokploy/dokploy** | fix(auth): enforce SSO on server-side sign-in endpoints | [#5291](https://github.com/Dokploy/dokploy/pull/5291) | `2026-09-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Syknapse/Contribute-To-This-Project** | Add Soumyajit Ghosh card | [#4736](https://github.com/Syknapse/Contribute-To-This-Project/pull/4736) | `2026-09-01` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **firstcontributions/first-contributions** | docs: add Soumyajit Ghosh to contributors list | [#124195](https://github.com/firstcontributions/first-contributions/pull/124195) | `2026-09-01` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Dokploy/dokploy** | fix(server): allow '+' and '@' in readValidDirectory path validation | [#5190](https://github.com/Dokploy/dokploy/pull/5190) | `2026-08-26` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
