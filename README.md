@@ -49,6 +49,7 @@
 
 | Organization / Repository | Focus Area | Contribution Highlights | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **PyTorch** (`torchtune`) | LLM Post-Training & Eval | Support configurable generation budget and harness-requested overrides in `eleuther_eval` | [#2992](https://github.com/pytorch/torchtune/pull/2992) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **PyTorch** (`ao`) | Quantization & Compiler | Handled `aten.abs` and amax-path ops in `Float8TrainingTensor` dispatch under HOP retrace | [#4870](https://github.com/pytorch/ao/pull/4870) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **vLLM** (`vllm`) | Speculative Decoding | Resolved `n_predict` from `text_config` for Qwen3.5 multimodal MTP wrapper checkpoints | [#55369](https://github.com/vllm-project/vllm/pull/55369) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Hugging Face** (`transformers`) | Trainer & Token Alignment | Prevented `bos_token_id` erasure in `align_special_tokens` for Qwen and Falcon configs | [#48598](https://github.com/huggingface/transformers/pull/48598) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
