@@ -49,6 +49,7 @@
 
 | Organization / Repository | Focus Area | Contribution Highlights | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **PyTorch** (`ao`) | Quantization & Compiler | Handled `aten.abs` and amax-path ops in `Float8TrainingTensor` dispatch under HOP retrace | [#4870](https://github.com/pytorch/ao/pull/4870) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **vLLM** (`vllm`) | Speculative Decoding | Resolved `n_predict` from `text_config` for Qwen3.5 multimodal MTP wrapper checkpoints | [#55369](https://github.com/vllm-project/vllm/pull/55369) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Hugging Face** (`transformers`) | Trainer & Token Alignment | Prevented `bos_token_id` erasure in `align_special_tokens` for Qwen and Falcon configs | [#48598](https://github.com/huggingface/transformers/pull/48598) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **vLLM** (`vllm`) | Speculative Decoding | Default `num_speculative_tokens` from draft config and defer multi-token warnings | [#55362](https://github.com/vllm-project/vllm/pull/55362) | <img src="https://img.shields.io/badge/Approved-238636?style=flat-square&logo=github&logoColor=white" alt="Approved" /> |
