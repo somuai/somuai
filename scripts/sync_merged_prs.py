@@ -33,20 +33,45 @@ def get_merged_prs():
     return external_prs
 
 
-def format_merged_table(prs):
-    lines = [
+def format_row(p):
+    repo = p["repository"]["nameWithOwner"]
+    title = p["title"].replace("|", "\\|")
+    url = p["url"]
+    num = p["number"]
+    date = p["closedAt"][:10] if p.get("closedAt") else "N/A"
+    status_badge = '<img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" />'
+    return f"| **{repo}** | {title} | [#{num}]({url}) | `{date}` | {status_badge} |"
+
+
+def format_merged_table(prs, top_k=5):
+    header = [
         "| Repository | Contribution Highlight | Pull Request | Merged Date | Status |",
         "| :--- | :--- | :--- | :--- | :--- |",
     ]
-    for p in prs:
-        repo = p["repository"]["nameWithOwner"]
-        title = p["title"].replace("|", "\\|")
-        url = p["url"]
-        num = p["number"]
-        date = p["closedAt"][:10] if p.get("closedAt") else "N/A"
-        status_badge = '<img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" />'
-        lines.append(f"| **{repo}** | {title} | [#{num}]({url}) | `{date}` | {status_badge} |")
-    return "\n".join(lines)
+    if len(prs) <= top_k:
+        lines = list(header)
+        for p in prs:
+            lines.append(format_row(p))
+        return "\n".join(lines)
+
+    top_lines = list(header)
+    for p in prs[:top_k]:
+        top_lines.append(format_row(p))
+
+    more_lines = list(header)
+    for p in prs[top_k:]:
+        more_lines.append(format_row(p))
+
+    remaining = len(prs) - top_k
+    details_block = (
+        f"<details>\n"
+        f"<summary><b>Show More Merged Contributions (Expand {remaining} Additional Merged PRs)</b></summary>\n"
+        f"<br />\n\n"
+        f"{chr(10).join(more_lines)}\n\n"
+        f"</details>"
+    )
+
+    return "\n".join(top_lines) + "\n\n" + details_block
 
 
 def update_readme():
