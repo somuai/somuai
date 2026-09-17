@@ -151,7 +151,7 @@
 ### Contribution Analytics
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=somuai&theme=tokyonight&hide_border=true&card_width=520" alt="GitHub Contribution Streak" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=somuai&theme=tokyonight&hide_border=true&card_width=520" alt="GitHub Contribution Streak" />
 </div>
 
 ---
