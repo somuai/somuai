@@ -61,11 +61,13 @@
 | **Google DeepMind** (`optax`) | Numerical Optimization | Prevented NaN divergence in Adam/Adamax optimizers under float16 zero-gradients | [#1768](https://github.com/google-deepmind/optax/pull/1768) | <img src="https://img.shields.io/badge/Resolved-238636?style=flat-square&logo=github&logoColor=white" alt="Resolved" /> |
 
 <details>
-<summary><b>Show More Open-Source Contributions (Expand 17 Additional Tier-1 & Core Infrastructure PRs)</b></summary>
+<summary><b>Show More Open-Source Contributions (Expand 19 Additional Tier-1 & Core Infrastructure PRs)</b></summary>
 <br />
 
 | Organization / Repository | Focus Area | Contribution Highlights | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **OpenTelemetry** (`opentelemetry-python-contrib`) | gRPC Server Interceptor | Prevent duplicate exception events on server spans via record_exception=False | [#5078](https://github.com/open-telemetry/opentelemetry-python-contrib/pull/5078) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
+| **OpenTelemetry** (`opentelemetry-python`) | GenAI Observability | Support GenAI token count and provider attributes in trace spans | [#5673](https://github.com/open-telemetry/opentelemetry-python/pull/5673) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **Weights & Biases** (`wandb`) | Artifact Subsystem | Bounded auto-generated internal artifact names to 128 chars with middle truncation | [#12755](https://github.com/wandb/wandb/pull/12755) | <img src="https://img.shields.io/badge/CI_Passed-238636?style=flat-square&logo=githubactions&logoColor=white" alt="CI Passed" /> |
 | **OpenTelemetry** (`opentelemetry-python-genai`) | GenAI Observability | Prevented unconditional `OTEL_INSTRUMENTATION_GENAI_EMIT_EVENT` override during instrumentation | [#622](https://github.com/open-telemetry/opentelemetry-python-genai/pull/622) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **OpenContainers** (`runc`) | Container Runtimes | Engineered kernel VFS `/proc` fallback in `FchmodFile` for custom Linux 5.10 kernels | [#5447](https://github.com/opencontainers/runc/pull/5447) | <img src="https://img.shields.io/badge/Concluded-6e7681?style=flat-square&logo=github&logoColor=white" alt="Concluded" /> |
