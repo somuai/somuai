@@ -3,8 +3,6 @@ import os
 import subprocess
 import tempfile
 from unittest.mock import patch
-import sys
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 
 from sync_merged_prs import (
     format_merged_table,
@@ -166,11 +164,13 @@ def test_update_readme_success():
         with open(readme_path, "w", encoding="utf-8") as f:
             f.write(sample_readme)
 
-        with patch("sync_merged_prs.get_merged_prs", return_value=sample_prs):
-            with patch("os.path.abspath") as mock_abspath:
-                mock_abspath.return_value = os.path.join(tmpdir, "scripts", "sync_merged_prs.py")
-                res = update_readme()
-                assert res is True
+        with (
+            patch("sync_merged_prs.get_merged_prs", return_value=sample_prs),
+            patch("os.path.abspath") as mock_abspath,
+        ):
+            mock_abspath.return_value = os.path.join(tmpdir, "scripts", "sync_merged_prs.py")
+            res = update_readme()
+            assert res is True
 
         with open(readme_path, "r", encoding="utf-8") as f:
             updated = f.read()
@@ -196,19 +196,23 @@ def test_update_readme_no_markers():
         with open(readme_path, "w", encoding="utf-8") as f:
             f.write(sample_readme)
 
-        with patch("sync_merged_prs.get_merged_prs", return_value=sample_prs):
-            with patch("os.path.abspath") as mock_abspath:
-                mock_abspath.return_value = os.path.join(tmpdir, "scripts", "sync_merged_prs.py")
-                res = update_readme()
-                assert res is False
-
-
-def test_update_readme_file_missing():
-    with tempfile.TemporaryDirectory() as tmpdir:
-        with patch("os.path.abspath") as mock_abspath:
+        with (
+            patch("sync_merged_prs.get_merged_prs", return_value=sample_prs),
+            patch("os.path.abspath") as mock_abspath,
+        ):
             mock_abspath.return_value = os.path.join(tmpdir, "scripts", "sync_merged_prs.py")
             res = update_readme()
             assert res is False
+
+
+def test_update_readme_file_missing():
+    with (
+        tempfile.TemporaryDirectory() as tmpdir,
+        patch("os.path.abspath") as mock_abspath,
+    ):
+        mock_abspath.return_value = os.path.join(tmpdir, "scripts", "sync_merged_prs.py")
+        res = update_readme()
+        assert res is False
 
 
 def test_update_readme_no_prs():
@@ -221,8 +225,10 @@ def test_update_readme_no_prs():
         with open(readme_path, "w", encoding="utf-8") as f:
             f.write(sample_readme)
 
-        with patch("sync_merged_prs.get_merged_prs", return_value=[]):
-            with patch("os.path.abspath") as mock_abspath:
-                mock_abspath.return_value = os.path.join(tmpdir, "scripts", "sync_merged_prs.py")
-                res = update_readme()
-                assert res is False
+        with (
+            patch("sync_merged_prs.get_merged_prs", return_value=[]),
+            patch("os.path.abspath") as mock_abspath,
+        ):
+            mock_abspath.return_value = os.path.join(tmpdir, "scripts", "sync_merged_prs.py")
+            res = update_readme()
+            assert res is False
