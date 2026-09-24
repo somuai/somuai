@@ -96,9 +96,9 @@
 
 | Repository | Contribution Highlight | Pull Request | Merged Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **huggingface/transformers** | Fix odd head_dim validation for RoPE configurations | [#48524](https://github.com/huggingface/transformers/pull/48524) | `2026-09-24` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **google/adk-go** | fix(sequentialagent): recurse task_completed injection and rebind Agent in Run and RunLive | [#1510](https://github.com/google/adk-go/pull/1510) | `2026-09-13` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **vllm-project/vllm** | [Bugfix][Spec Decode] Resolve n_predict from text_config for Qwen3.5 multimodal MTP | [#55369](https://github.com/vllm-project/vllm/pull/55369) | `2026-09-07` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
-| **huggingface/transformers** | Fix odd head_dim validation for RoPE configurations | [#48524](https://github.com/huggingface/transformers/pull/48524) | `2026-09-24` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Dokploy/dokploy** | fix(auth): enforce SSO on server-side sign-in endpoints | [#5291](https://github.com/Dokploy/dokploy/pull/5291) | `2026-09-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Syknapse/Contribute-To-This-Project** | Add Soumyajit Ghosh card | [#4736](https://github.com/Syknapse/Contribute-To-This-Project/pull/4736) | `2026-09-01` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 
