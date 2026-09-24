@@ -25,6 +25,8 @@ def get_merged_prs():
             prs = json.loads(res)
             # Filter out personal repository PRs
             external_prs = [p for p in prs if not p["repository"]["nameWithOwner"].startswith("somuai/")]
+            # Sort by closedAt descending so latest merged PRs appear first
+            external_prs.sort(key=lambda p: p.get("closedAt") or "", reverse=True)
             return external_prs
         except Exception as e:
             if attempt < 2:

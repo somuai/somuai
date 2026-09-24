@@ -111,8 +111,8 @@
 | **firstcontributions/first-contributions** | docs: add Soumyajit Ghosh to contributors list | [#124195](https://github.com/firstcontributions/first-contributions/pull/124195) | `2026-09-01` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Dokploy/dokploy** | fix(server): allow '+' and '@' in readValidDirectory path validation | [#5190](https://github.com/Dokploy/dokploy/pull/5190) | `2026-08-26` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **comet-ml/opik** | test(python-sdk): add unit test coverage for IsJson metric | [#8001](https://github.com/comet-ml/opik/pull/8001) | `2026-08-26` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
-| **lingdojo/kana-dojo** | content: add new japanese proverb | [#29155](https://github.com/lingdojo/kana-dojo/pull/29155) | `2026-08-25` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **lingdojo/kana-dojo** | content: add new japan fact | [#29154](https://github.com/lingdojo/kana-dojo/pull/29154) | `2026-08-25` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **lingdojo/kana-dojo** | content: add new japanese proverb | [#29155](https://github.com/lingdojo/kana-dojo/pull/29155) | `2026-08-25` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **firstcontributions/first-contributions** | Add Soumyajit Ghosh portfolio to Contributors list | [#123556](https://github.com/firstcontributions/first-contributions/pull/123556) | `2026-08-20` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Syknapse/Contribute-To-This-Project** | Add contributor card for Soumyajit Ghosh | [#4717](https://github.com/Syknapse/Contribute-To-This-Project/pull/4717) | `2026-08-20` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **firstcontributions/first-contributions** | Add Soumyajit Ghosh to Contributors list | [#123511](https://github.com/firstcontributions/first-contributions/pull/123511) | `2026-08-19` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
@@ -120,6 +120,33 @@
 </details>
 
 <!-- MERGED_PRS_END -->
+
+---
+
+### Tier-1 Technical Solutions & Accepted Answers
+
+| Organization / Repository | Domain & Architecture | Problem / Discussion Highlight | Solution / Discussion | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Supabase** (`supabase`) | Storage RLS Security | Upload rejected with RLS violation that no policy can satisfy (`objects` schema check & policy scope) | [#50714](https://github.com/supabase/supabase/discussions/50714#discussioncomment-18551115) | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
+| **Supabase** (`supabase`) | Auth & GoTrue Runtime | Cloudflare Turnstile captcha validation failure on mobile & service_role bypass | [#50758](https://github.com/supabase/supabase/discussions/50758#discussioncomment-18562890) | <img src="https://img.shields.io/badge/Solution_Verified-238636?style=flat-square&logo=github&logoColor=white" alt="Solution Verified" /> |
+| **Supabase** (`supabase`) | Connection Pooler (Supavisor) | Persistent Session Pooler auth failure after database password reset (ETS cache eviction runbook) | [#50800](https://github.com/supabase/supabase/discussions/50800#discussioncomment-18581847) | <img src="https://img.shields.io/badge/Runbook_Provided-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Runbook Provided" /> |
+| **Supabase** (`supabase`) | PostgreSQL & Supavisor TLS | Managed Shared Pooler to Postgres encryption model, internal VPC loopback & `pg_stat_ssl` | [#50379](https://github.com/supabase/supabase/discussions/50379#discussioncomment-18579885) | <img src="https://img.shields.io/badge/Architectural_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Architectural Review" /> |
+| **GitHub Community** (`community`) | Git Core & macOS Transport | macOS upgrade network handshake failure & keychain credential resolution | [#208386](https://github.com/community/community/discussions/208386#discussioncomment-18530330) | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
+| **GitHub Community** (`community`) | Git Provenance & Caching | Sidebar contributor list caching desync with Git Insights graph | [#208456](https://github.com/community/community/discussions/208456#discussioncomment-18543396) | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
+
+---
+
+### Accepted Community Solutions (Live Dynamic Feed)
+
+<!-- ACCEPTED_ANSWERS_START -->
+
+| Repository | Technical Discussion | Accepted Solution | Solved Date | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **supabase/supabase** | Storage: upload rejected with RLS violation that no policy can satisfy (TO public also fails) | [#50714](https://github.com/supabase/supabase/discussions/50714#discussioncomment-18551115) | `2026-09-22` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
+| **community/community** | Sidebar contributor list shows cached contributor though Insights graph is clean | [#208456](https://github.com/community/community/discussions/208456#discussioncomment-18543396) | `2026-09-21` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
+| **community/community** | macOS 27 upgrade and now I can't fetch | [#208386](https://github.com/community/community/discussions/208386#discussioncomment-18530330) | `2026-09-20` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
+
+<!-- ACCEPTED_ANSWERS_END -->
 
 ---
 
