@@ -142,13 +142,7 @@ def test_get_merged_prs_exception_handling(mock_check_output):
 
 
 def test_update_readme_success():
-    sample_readme = (
-        "# Title\n\n"
-        "<!-- MERGED_PRS_START -->\n"
-        "Old Table Content\n"
-        "<!-- MERGED_PRS_END -->\n\n"
-        "## Footer\n"
-    )
+    sample_readme = "# Title\n\n<!-- MERGED_PRS_START -->\nOld Table Content\n<!-- MERGED_PRS_END -->\n\n## Footer\n"
     sample_prs = [
         {
             "repository": {"nameWithOwner": "huggingface/transformers"},
@@ -216,10 +210,7 @@ def test_update_readme_file_missing():
 
 
 def test_update_readme_no_prs():
-    sample_readme = (
-        "<!-- MERGED_PRS_START -->\n"
-        "<!-- MERGED_PRS_END -->\n"
-    )
+    sample_readme = "<!-- MERGED_PRS_START -->\n<!-- MERGED_PRS_END -->\n"
     with tempfile.TemporaryDirectory() as tmpdir:
         readme_path = os.path.join(tmpdir, "README.md")
         with open(readme_path, "w", encoding="utf-8") as f:

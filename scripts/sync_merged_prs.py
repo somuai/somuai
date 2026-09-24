@@ -7,30 +7,33 @@ import sys
 
 
 def get_merged_prs():
-    try:
-        cmd = [
-            "gh",
-            "search",
-            "prs",
-            "--author",
-            "somuai",
-            "--merged",
-            "--limit",
-            "50",
-            "--json",
-            "repository,title,url,closedAt,number",
-        ]
-        res = subprocess.check_output(cmd, text=True)
-        prs = json.loads(res)
-    except Exception as e:
-        print(f"Error fetching merged PRs: {e}", file=sys.stderr)
-        return []
-
-    # Filter out personal repository PRs
-    external_prs = [
-        p for p in prs if not p["repository"]["nameWithOwner"].startswith("somuai/")
+    cmd = [
+        "gh",
+        "search",
+        "prs",
+        "--author",
+        "somuai",
+        "--merged",
+        "--limit",
+        "50",
+        "--json",
+        "repository,title,url,closedAt,number",
     ]
-    return external_prs
+    for attempt in range(3):
+        try:
+            res = subprocess.check_output(cmd, text=True)
+            prs = json.loads(res)
+            # Filter out personal repository PRs
+            external_prs = [p for p in prs if not p["repository"]["nameWithOwner"].startswith("somuai/")]
+            return external_prs
+        except Exception as e:
+            if attempt < 2:
+                import time
+
+                time.sleep(2)
+                continue
+            print(f"Error fetching merged PRs: {e}", file=sys.stderr)
+            return []
 
 
 def format_row(p):
