@@ -45,6 +45,40 @@
 
 ---
 
+### GitHub Achievements & Community Impact
+
+<div align="center">
+
+<p align="center">
+  <a href="https://github.com/somuai?tab=achievements">
+    <img src="https://github.githubassets.com/assets/galaxy-brain-default-847262c21056.png" width="75" alt="Galaxy Brain (8 Accepted Answers)" />
+  </a>
+  <a href="https://github.com/somuai?tab=achievements">
+    <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="75" alt="Pull Shark (2x Bronze)" />
+  </a>
+  <a href="https://github.com/somuai?tab=achievements">
+    <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="75" alt="Pair Extraordinaire" />
+  </a>
+  <a href="https://github.com/somuai?tab=achievements">
+    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="75" alt="Quickdraw" />
+  </a>
+  <a href="https://github.com/somuai?tab=achievements">
+    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="75" alt="YOLO" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Galaxy_Brain-8_Accepted_Answers-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Galaxy Brain" /></a>
+  <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Pull_Shark-Bronze_x2-8957e5?style=flat-square&logo=github&logoColor=white" alt="Pull Shark" /></a>
+  <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Pair_Extraordinaire-Co--Author-238636?style=flat-square&logo=github&logoColor=white" alt="Pair Extraordinaire" /></a>
+  <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Quickdraw-Merged_in_5m-f0883e?style=flat-square&logo=github&logoColor=white" alt="Quickdraw" /></a>
+  <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/YOLO-Merged_Without_Review-db61a2?style=flat-square&logo=github&logoColor=white" alt="YOLO" /></a>
+</p>
+
+</div>
+
+---
+
 ### Tier-1 Open Source Provenance
 
 | Organization / Repository | Focus Area | Contribution Highlights | Pull Request | Status |
