@@ -79,6 +79,18 @@
 
 ---
 
+### Hacktoberfest 2026 & Active Core Sprints
+
+<div align="center">
+  <a href="https://hacktoberfest.com/">
+    <img src="https://img.shields.io/badge/Hacktoberfest-2026_Active_Participant-ff7849?style=flat-square&logo=hacktoberfest&logoColor=white" alt="Hacktoberfest 2026" />
+  </a>
+  <img src="https://img.shields.io/badge/Sprint_Focus-AI_Infra_•_Telemetry_•_Agent_Runtimes-38bdf8?style=flat-square&logo=google&logoColor=white" alt="Sprint Focus" />
+  <img src="https://img.shields.io/badge/Languages-Python_•_Go_•_TypeScript-238636?style=flat-square&logo=git&logoColor=white" alt="Languages" />
+</div>
+
+---
+
 ### Tier-1 Open Source Provenance
 
 | Organization / Repository | Focus Area | Contribution Highlights | Pull Request | Status |
@@ -92,7 +104,7 @@
 | **PyTorch** (`ao`) | Quantization Config | Prevent IndexError in `_fqn_to_config_handler` when multiple parameter FQNs are None | [#4901](https://github.com/pytorch/ao/pull/4901) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **PyTorch** (`ao`) | Quantization & Compiler | Handled `aten.abs` and amax-path ops in `Float8TrainingTensor` dispatch under HOP retrace | [#4870](https://github.com/pytorch/ao/pull/4870) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **Hugging Face** (`transformers`) | Trainer & Token Alignment | Prevented `bos_token_id` erasure in `align_special_tokens` for Qwen and Falcon configs | [#48598](https://github.com/huggingface/transformers/pull/48598) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
-| **OpenTelemetry** (`opentelemetry-python`) | SDK Reliability | Guard against unhandled span processor exceptions in MultiSpanProcessor | [#5626](https://github.com/open-telemetry/opentelemetry-python/pull/5626) | <img src="https://img.shields.io/badge/Validated-238636?style=flat-square&logo=github&logoColor=white" alt="Validated" /> |
+| **OpenTelemetry** (`opentelemetry-python`) | SDK Reliability | Guard MultiSpanProcessor against unhandled processor exceptions; verified with real-world GenAI benchmarks | [#5626](https://github.com/open-telemetry/opentelemetry-python/pull/5626) | <img src="https://img.shields.io/badge/Validated-238636?style=flat-square&logo=github&logoColor=white" alt="Validated" /> |
 | **Google DeepMind** (`optax`) | Numerical Optimization | Prevented NaN divergence in Adam/Adamax optimizers under float16 zero-gradients | [#1768](https://github.com/google-deepmind/optax/pull/1768) | <img src="https://img.shields.io/badge/Resolved-238636?style=flat-square&logo=github&logoColor=white" alt="Resolved" /> |
 
 <details>
@@ -102,9 +114,9 @@
 | Organization / Repository | Focus Area | Contribution Highlights | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **OpenTelemetry** (`opentelemetry-python-contrib`) | gRPC Server Interceptor | Prevent duplicate exception events on server spans via record_exception=False | [#5078](https://github.com/open-telemetry/opentelemetry-python-contrib/pull/5078) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
-| **OpenTelemetry** (`opentelemetry-python`) | GenAI Observability | Support GenAI token count and provider attributes in trace spans | [#5673](https://github.com/open-telemetry/opentelemetry-python/pull/5673) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
+| **OpenTelemetry** (`opentelemetry-python`) | Metrics & Views | Character pattern wildcard rejection in View instrument_name (#5664, landed in #5674) | [#5673](https://github.com/open-telemetry/opentelemetry-python/pull/5673) | <img src="https://img.shields.io/badge/Landed_Upstream-8957e5?style=flat-square&logo=git&logoColor=white" alt="Landed Upstream" /> |
 | **Weights & Biases** (`wandb`) | Artifact Subsystem | Bounded auto-generated internal artifact names to 128 chars with middle truncation | [#12755](https://github.com/wandb/wandb/pull/12755) | <img src="https://img.shields.io/badge/CI_Passed-238636?style=flat-square&logo=githubactions&logoColor=white" alt="CI Passed" /> |
-| **OpenTelemetry** (`opentelemetry-python-genai`) | GenAI Observability | Architected event emission decoupling (#619); aligned on long-term logging conventions | [#622](https://github.com/open-telemetry/opentelemetry-python-genai/pull/622) | <img src="https://img.shields.io/badge/Concluded-6e7681?style=flat-square&logo=github&logoColor=white" alt="Concluded" /> |
+| **OpenTelemetry** (`opentelemetry-python-genai`) | GenAI Observability | Decoupled event emission from os.environ mutation and set event severity to DEBUG (#619) | [#836](https://github.com/open-telemetry/opentelemetry-python-genai/pull/836) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **OpenContainers** (`runc`) | Container Runtimes | Engineered kernel VFS `/proc` fallback in `FchmodFile` for custom Linux 5.10 kernels | [#5447](https://github.com/opencontainers/runc/pull/5447) | <img src="https://img.shields.io/badge/Concluded-6e7681?style=flat-square&logo=github&logoColor=white" alt="Concluded" /> |
 | **Keras** (`keras`) | Core API & Ops | Exported `random` submodule and operations under public `keras.ops` namespace | [#23580](https://github.com/keras-team/keras/pull/23580) | <img src="https://img.shields.io/badge/Closed-6e7681?style=flat-square&logo=github&logoColor=white" alt="Closed" /> |
 | **Containerd** (`containerd`) | Container Engines | Implemented direct upload fallback on cross-repo mount 403 Forbidden responses | [#14118](https://github.com/containerd/containerd/pull/14118) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
@@ -168,6 +180,7 @@
 | **Supabase** (`supabase`) | Storage API & Postgres RLS | Storage API returns 503 on authenticated operations (PostgreSQL `42P17` infinite recursion mapping & `SECURITY DEFINER` fix) | [#50753](https://github.com/supabase/supabase/discussions/50753#discussioncomment-18596683) | <img src="https://img.shields.io/badge/Solution_Delivered-238636?style=flat-square&logo=github&logoColor=white" alt="Solution Delivered" /> |
 | **Supabase** (`supabase`) | Storage RLS Security | Upload rejected with RLS violation that no policy can satisfy (`objects` schema check & policy scope) | [#50714](https://github.com/supabase/supabase/discussions/50714#discussioncomment-18551115) | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **Supabase** (`supabase`) | Auth & GoTrue Runtime | Cloudflare Turnstile captcha validation failure on mobile & service_role bypass | [#50758](https://github.com/supabase/supabase/discussions/50758#discussioncomment-18562890) | <img src="https://img.shields.io/badge/Solution_Verified-238636?style=flat-square&logo=github&logoColor=white" alt="Solution Verified" /> |
+| **Supabase** (`supabase`) | Database Administration & RBAC | Table ownership transfer from authenticated users to postgres role with RLS retention runbook | [#51118](https://github.com/supabase/supabase/discussions/51118#discussioncomment-18717588) | <img src="https://img.shields.io/badge/Solution_Delivered-238636?style=flat-square&logo=github&logoColor=white" alt="Solution Delivered" /> |
 | **Supabase** (`supabase`) | Connection Pooler (Supavisor) | Persistent Session Pooler auth failure after database password reset (ETS cache eviction runbook) | [#50800](https://github.com/supabase/supabase/discussions/50800#discussioncomment-18581847) | <img src="https://img.shields.io/badge/Runbook_Provided-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Runbook Provided" /> |
 | **Supabase** (`supabase`) | PostgreSQL & Supavisor TLS | Managed Shared Pooler to Postgres encryption model, internal VPC loopback & `pg_stat_ssl` | [#50379](https://github.com/supabase/supabase/discussions/50379#discussioncomment-18579885) | <img src="https://img.shields.io/badge/Architectural_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Architectural Review" /> |
 | **GitHub Community** (`community`) | Git Core & macOS Transport | macOS upgrade network handshake failure & keychain credential resolution | [#208386](https://github.com/community/community/discussions/208386#discussioncomment-18530330) | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
