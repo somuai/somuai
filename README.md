@@ -89,6 +89,7 @@
     <img src="https://img.shields.io/badge/Kestra_Academy-Fundamentals_Certified-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Fundamentals Certified" />
   </a>
   <img src="https://img.shields.io/badge/Sprint_Focus-AI_Infra_•_Telemetry_•_Agent_Runtimes-38bdf8?style=flat-square&logo=google&logoColor=white" alt="Sprint Focus" />
+  <img src="https://img.shields.io/badge/Kestra_Track_02-4_of_4_Submitted-238636?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Track 02" />
   <img src="https://img.shields.io/badge/Languages-Python_•_Go_•_TypeScript-238636?style=flat-square&logo=git&logoColor=white" alt="Languages" />
 </div>
 
@@ -96,6 +97,7 @@
 
 | Organization / Repository | Blueprint Architecture | Focus & Innovation | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **Kestra** (`blueprints`) | Continuous GenAI Evaluation & Prompt Guardrails with Comet Opik | Dual-trigger (Webhook/Cron), containerized multi-metric scoring (relevance, hallucination, JSON), Slack alerts, Pause gate | [#437](https://github.com/kestra-io/blueprints/pull/437) | <img src="https://img.shields.io/badge/Under_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Under Review" /> |
 | **Kestra** (`blueprints`) | OpenTelemetry GenAI Lakehouse to BigQuery via DuckDB | In-memory JSON compaction to Snappy Parquet, partitioned BigQuery stream, token anomaly alerts | [#341](https://github.com/kestra-io/blueprints/pull/341) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | Autonomous Incident Triage with Multi-Provider Fallback | 3-tier LLM failover (OpenAI -> Gemini -> Heuristic AST) with Pause approval gates for P0 alerts | [#342](https://github.com/kestra-io/blueprints/pull/342) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | GitOps PostgreSQL Zero-Downtime Migration Verifier | DDL AST lock escalation & circular RLS static analysis with transactional dry-run | [#343](https://github.com/kestra-io/blueprints/pull/343) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
