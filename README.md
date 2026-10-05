@@ -89,7 +89,7 @@
     <img src="https://img.shields.io/badge/Kestra_Academy-Fundamentals_Certified-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Fundamentals Certified" />
   </a>
   <img src="https://img.shields.io/badge/Sprint_Focus-AI_Infra_•_Telemetry_•_Agent_Runtimes-38bdf8?style=flat-square&logo=google&logoColor=white" alt="Sprint Focus" />
-  <img src="https://img.shields.io/badge/Kestra_Track_02-5_Submitted_•_4_Merged-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Track 02" />
+  <img src="https://img.shields.io/badge/Kestra_Track_02-5_of_5_Merged-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Track 02" />
   <img src="https://img.shields.io/badge/Languages-Python_•_Go_•_TypeScript-238636?style=flat-square&logo=git&logoColor=white" alt="Languages" />
 </div>
 
@@ -97,7 +97,7 @@
 
 | Organization / Repository | Blueprint Architecture | Focus & Innovation | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **Kestra** (`blueprints`) | Automated OpenLineage Metadata & Marquez Governance | Dual-trigger (Webhook/Schedule), DuckDB mart, containerized OpenLineage 1.0 JSON, Marquez API, Pause gate | [#501](https://github.com/kestra-io/blueprints/pull/501) | <img src="https://img.shields.io/badge/Under_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Under Review" /> |
+| **Kestra** (`blueprints`) | Automated OpenLineage Metadata & Marquez Governance | Dual-trigger (Webhook/Schedule), DuckDB mart, containerized OpenLineage 1.0 JSON, Marquez API, Pause gate | [#501](https://github.com/kestra-io/blueprints/pull/501) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | Continuous GenAI Evaluation & Prompt Guardrails with Comet Opik | Dual-trigger (Webhook/Cron), containerized multi-metric scoring (relevance, hallucination, JSON), Slack alerts, Pause gate | [#437](https://github.com/kestra-io/blueprints/pull/437) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | OpenTelemetry GenAI Lakehouse to BigQuery via DuckDB | In-memory JSON compaction to Snappy Parquet, partitioned BigQuery stream, token anomaly alerts | [#341](https://github.com/kestra-io/blueprints/pull/341) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | Autonomous Incident Triage with Multi-Provider Fallback | 3-tier LLM failover (OpenAI -> Gemini -> Heuristic AST) with Pause approval gates for P0 alerts | [#342](https://github.com/kestra-io/blueprints/pull/342) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
@@ -156,6 +156,7 @@
 
 | Repository | Contribution Highlight | Pull Request | Merged Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **kestra-io/blueprints** | feat(blueprints): add automated OpenLineage metadata extraction and Marquez governance pipeline | [#501](https://github.com/kestra-io/blueprints/pull/501) | `2026-10-05` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add continuous GenAI evaluation and prompt guardrail pipeline with Comet Opik | [#437](https://github.com/kestra-io/blueprints/pull/437) | `2026-10-05` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add GitOps PostgreSQL zero-downtime migration verifier and lock risk guard | [#343](https://github.com/kestra-io/blueprints/pull/343) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add autonomous incident triage with multi-provider LLM fallback and Slack escalation | [#342](https://github.com/kestra-io/blueprints/pull/342) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
