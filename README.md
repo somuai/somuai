@@ -89,7 +89,7 @@
     <img src="https://img.shields.io/badge/Kestra_Academy-Fundamentals_Certified-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Fundamentals Certified" />
   </a>
   <img src="https://img.shields.io/badge/Sprint_Focus-AI_Infra_•_Telemetry_•_Agent_Runtimes-38bdf8?style=flat-square&logo=google&logoColor=white" alt="Sprint Focus" />
-  <img src="https://img.shields.io/badge/Kestra_Track_02-4_of_4_Submitted-238636?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Track 02" />
+  <img src="https://img.shields.io/badge/Kestra_Track_02-4_of_4_Merged-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Track 02" />
   <img src="https://img.shields.io/badge/Languages-Python_•_Go_•_TypeScript-238636?style=flat-square&logo=git&logoColor=white" alt="Languages" />
 </div>
 
@@ -97,7 +97,7 @@
 
 | Organization / Repository | Blueprint Architecture | Focus & Innovation | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **Kestra** (`blueprints`) | Continuous GenAI Evaluation & Prompt Guardrails with Comet Opik | Dual-trigger (Webhook/Cron), containerized multi-metric scoring (relevance, hallucination, JSON), Slack alerts, Pause gate | [#437](https://github.com/kestra-io/blueprints/pull/437) | <img src="https://img.shields.io/badge/Under_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Under Review" /> |
+| **Kestra** (`blueprints`) | Continuous GenAI Evaluation & Prompt Guardrails with Comet Opik | Dual-trigger (Webhook/Cron), containerized multi-metric scoring (relevance, hallucination, JSON), Slack alerts, Pause gate | [#437](https://github.com/kestra-io/blueprints/pull/437) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | OpenTelemetry GenAI Lakehouse to BigQuery via DuckDB | In-memory JSON compaction to Snappy Parquet, partitioned BigQuery stream, token anomaly alerts | [#341](https://github.com/kestra-io/blueprints/pull/341) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | Autonomous Incident Triage with Multi-Provider Fallback | 3-tier LLM failover (OpenAI -> Gemini -> Heuristic AST) with Pause approval gates for P0 alerts | [#342](https://github.com/kestra-io/blueprints/pull/342) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | GitOps PostgreSQL Zero-Downtime Migration Verifier | DDL AST lock escalation & circular RLS static analysis with transactional dry-run | [#343](https://github.com/kestra-io/blueprints/pull/343) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
@@ -135,7 +135,7 @@
 | **Containerd** (`containerd`) | Container Engines | Implemented direct upload fallback on cross-repo mount 403 Forbidden responses | [#14118](https://github.com/containerd/containerd/pull/14118) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **SGLang** (`sglang`) | AI Inference | Added multimodal embedding zero-padding guard preventing server SIGQUIT crashes | [#38155](https://github.com/sgl-project/sglang/pull/38155) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **Google DeepMind** (`optax`) | Numerical Optimization | Prevented NaN in scale_by_adamax on float16 zero-gradient steps | [#1769](https://github.com/google-deepmind/optax/pull/1769) | <img src="https://img.shields.io/badge/Resolved-238636?style=flat-square&logo=github&logoColor=white" alt="Resolved" /> |
-| **Anthropic / MCP** (`servers`) | Agent Tooling Protocol | Corrected readOnlyHint and idempotentHint annotations for sequential thinking server | [#4747](https://github.com/modelcontextprotocol/servers/pull/4747) | <img src="https://img.shields.io/badge/CI_Passed-238636?style=flat-square&logo=githubactions&logoColor=white" alt="CI Passed" /> |
+| **Anthropic / MCP** (`servers`) | Agent Tooling Protocol | Corrected readOnlyHint and idempotentHint annotations for sequential thinking server | [#4747](https://github.com/modelcontextprotocol/servers/pull/4747) | <img src="https://img.shields.io/badge/Resolved_in_v2-8957e5?style=flat-square&logo=git&logoColor=white" alt="Resolved in v2" /> |
 | **OpenTelemetry** (`opentelemetry-python`) | Distributed Tracing | Built order-independent metric conflict detection on default-view fallback streams | [#5632](https://github.com/open-telemetry/opentelemetry-python/pull/5632) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **Google** (`adk-go`) | Agent Runtime | Clone Tools and Toolsets slices in constructor to prevent backing array aliasing | [#1493](https://github.com/google/adk-go/pull/1493) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **Google** (`adk-go`) | Agent Runtime | Added misspell linter, US spelling sweep, and HTTP cassette isolation | [#1465](https://github.com/google/adk-go/pull/1465) | <img src="https://img.shields.io/badge/In_Review-238636?style=flat-square&logo=githubactions&logoColor=white" alt="In Review" /> |
@@ -155,6 +155,7 @@
 
 | Repository | Contribution Highlight | Pull Request | Merged Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **kestra-io/blueprints** | feat(blueprints): add continuous GenAI evaluation and prompt guardrail pipeline with Comet Opik | [#437](https://github.com/kestra-io/blueprints/pull/437) | `2026-10-05` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add GitOps PostgreSQL zero-downtime migration verifier and lock risk guard | [#343](https://github.com/kestra-io/blueprints/pull/343) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add autonomous incident triage with multi-provider LLM fallback and Slack escalation | [#342](https://github.com/kestra-io/blueprints/pull/342) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add OpenTelemetry GenAI trace lakehouse pipeline to BigQuery via DuckDB | [#341](https://github.com/kestra-io/blueprints/pull/341) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
