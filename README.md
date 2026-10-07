@@ -89,7 +89,7 @@
     <img src="https://img.shields.io/badge/Kestra_Academy-Fundamentals_Certified-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Fundamentals Certified" />
   </a>
   <img src="https://img.shields.io/badge/Sprint_Focus-AI_Infra_•_Telemetry_•_Agent_Runtimes-38bdf8?style=flat-square&logo=google&logoColor=white" alt="Sprint Focus" />
-  <img src="https://img.shields.io/badge/Kestra_Track_02-5_of_5_Merged-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Track 02" />
+  <img src="https://img.shields.io/badge/Kestra_Track_02-6_of_6_Merged_•_Rank_1_Global-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Track 02" />
   <img src="https://img.shields.io/badge/Languages-Python_•_Go_•_TypeScript-238636?style=flat-square&logo=git&logoColor=white" alt="Languages" />
 </div>
 
@@ -97,6 +97,7 @@
 
 | Organization / Repository | Blueprint Architecture | Focus & Innovation | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **Kestra** (`blueprints`) | Autonomous Multi-Agent Software Engineering & Self-Healing Pipeline | Multi-agent planner/coder/reviewer loop, automated pytest repair, containerized execution, Slack alerts | [#604](https://github.com/kestra-io/blueprints/pull/604) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | Automated OpenLineage Metadata & Marquez Governance | Dual-trigger (Webhook/Schedule), DuckDB mart, containerized OpenLineage 1.0 JSON, Marquez API, Pause gate | [#501](https://github.com/kestra-io/blueprints/pull/501) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | Continuous GenAI Evaluation & Prompt Guardrails with Comet Opik | Dual-trigger (Webhook/Cron), containerized multi-metric scoring (relevance, hallucination, JSON), Slack alerts, Pause gate | [#437](https://github.com/kestra-io/blueprints/pull/437) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | OpenTelemetry GenAI Lakehouse to BigQuery via DuckDB | In-memory JSON compaction to Snappy Parquet, partitioned BigQuery stream, token anomaly alerts | [#341](https://github.com/kestra-io/blueprints/pull/341) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
