@@ -157,18 +157,19 @@
 
 | Repository | Contribution Highlight | Pull Request | Merged Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **kestra-io/blueprints** | feat(blueprints): add autonomous multi-agent software engineering & self-healing pipeline | [#604](https://github.com/kestra-io/blueprints/pull/604) | `2026-10-06` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **google/adk-go** | fix(llmagent): clone Tools and Toolsets slices in constructor to prevent backing array aliasing | [#1493](https://github.com/google/adk-go/pull/1493) | `2026-10-06` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add automated OpenLineage metadata extraction and Marquez governance pipeline | [#501](https://github.com/kestra-io/blueprints/pull/501) | `2026-10-05` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add continuous GenAI evaluation and prompt guardrail pipeline with Comet Opik | [#437](https://github.com/kestra-io/blueprints/pull/437) | `2026-10-05` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add GitOps PostgreSQL zero-downtime migration verifier and lock risk guard | [#343](https://github.com/kestra-io/blueprints/pull/343) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
-| **kestra-io/blueprints** | feat(blueprints): add autonomous incident triage with multi-provider LLM fallback and Slack escalation | [#342](https://github.com/kestra-io/blueprints/pull/342) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 
 <details>
-<summary><b>Show More Merged Contributions (Expand 14 Additional Merged PRs)</b></summary>
+<summary><b>Show More Merged Contributions (Expand 15 Additional Merged PRs)</b></summary>
 <br />
 
 | Repository | Contribution Highlight | Pull Request | Merged Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **kestra-io/blueprints** | feat(blueprints): add autonomous incident triage with multi-provider LLM fallback and Slack escalation | [#342](https://github.com/kestra-io/blueprints/pull/342) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add OpenTelemetry GenAI trace lakehouse pipeline to BigQuery via DuckDB | [#341](https://github.com/kestra-io/blueprints/pull/341) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **huggingface/transformers** | Fix odd head_dim validation for RoPE configurations | [#48524](https://github.com/huggingface/transformers/pull/48524) | `2026-09-24` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **google/adk-go** | fix(sequentialagent): recurse task_completed injection and rebind Agent in Run and RunLive | [#1510](https://github.com/google/adk-go/pull/1510) | `2026-09-13` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
