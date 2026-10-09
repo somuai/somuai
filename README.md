@@ -79,11 +79,14 @@
 
 ---
 
-### Hacktoberfest 2026 & Active Core Sprints
+### Hacktoberfest 2026 & Mergetober 2026 Active Sprints
 
 <div align="center">
   <a href="https://hacktoberfest.com/">
     <img src="https://img.shields.io/badge/Hacktoberfest-2026_Active_Participant-ff7849?style=flat-square&logo=hacktoberfest&logoColor=white" alt="Hacktoberfest 2026" />
+  </a>
+  <a href="https://www.wemakedevs.org/hackathons/mergetober">
+    <img src="https://img.shields.io/badge/Mergetober-2026_Active_Participant-0ea5e9?style=flat-square&logo=git&logoColor=white" alt="Mergetober 2026" />
   </a>
   <a href="https://academy.kestra.io/">
     <img src="https://img.shields.io/badge/Kestra_Academy-Fundamentals_Certified-8957e5?style=flat-square&logo=kestra&logoColor=white" alt="Kestra Fundamentals Certified" />
@@ -103,6 +106,12 @@
 | **Kestra** (`blueprints`) | OpenTelemetry GenAI Lakehouse to BigQuery via DuckDB | In-memory JSON compaction to Snappy Parquet, partitioned BigQuery stream, token anomaly alerts | [#341](https://github.com/kestra-io/blueprints/pull/341) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | Autonomous Incident Triage with Multi-Provider Fallback | 3-tier LLM failover (OpenAI -> Gemini -> Heuristic AST) with Pause approval gates for P0 alerts | [#342](https://github.com/kestra-io/blueprints/pull/342) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **Kestra** (`blueprints`) | GitOps PostgreSQL Zero-Downtime Migration Verifier | DDL AST lock escalation & circular RLS static analysis with transactional dry-run | [#343](https://github.com/kestra-io/blueprints/pull/343) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+
+#### Mergetober 2026 Enterprise Connector Submissions
+
+| Organization / Repository | Feature & Architecture | Focus & Innovation | Pull Request | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Cognee** (`cognee-community`) | Apache Iceberg Data-Source Connector | Ingest Iceberg catalog schemas, partition specs, and commit history into Cognee memory graph with forget-on-delete reconciliation | [#348](https://github.com/topoteretes/cognee-community/pull/348) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 
 ---
 
@@ -124,6 +133,7 @@
 | **Google** (`adk-go`) | Linter & Code Quality | Added misspell linter, US spelling sweep, and HTTP cassette isolation | [#1465](https://github.com/google/adk-go/pull/1465) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **OpenTelemetry** (`opentelemetry-python`) | SDK Reliability | Guard MultiSpanProcessor against unhandled processor exceptions; verified with real-world GenAI benchmarks | [#5626](https://github.com/open-telemetry/opentelemetry-python/pull/5626) | <img src="https://img.shields.io/badge/Validated-238636?style=flat-square&logo=github&logoColor=white" alt="Validated" /> |
 | **Google DeepMind** (`optax`) | Numerical Optimization | Prevented NaN divergence in Adam/Adamax optimizers under float16 zero-gradients | [#1768](https://github.com/google-deepmind/optax/pull/1768) | <img src="https://img.shields.io/badge/Resolved-238636?style=flat-square&logo=github&logoColor=white" alt="Resolved" /> |
+| **Cognee** (`cognee-community`) | AI Lakehouse Memory | Ingest Apache Iceberg schemas, partition specs, and commit history into Cognee memory graph with forget-on-delete reconciliation | [#348](https://github.com/topoteretes/cognee-community/pull/348) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 
 <details>
 <summary><b>Show More Open-Source Contributions (Expand 18 Additional Tier-1 & Core Infrastructure PRs)</b></summary>
