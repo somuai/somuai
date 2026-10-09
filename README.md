@@ -112,6 +112,7 @@
 | Organization / Repository | Feature & Architecture | Focus & Innovation | Pull Request | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **Cognee** (`cognee-community`) | Apache Iceberg Data-Source Connector | Ingest Iceberg catalog schemas, partition specs, and commit history into Cognee memory graph with forget-on-delete reconciliation | [#348](https://github.com/topoteretes/cognee-community/pull/348) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
+| **Cognee** (`cognee-community`) | OpenLineage & Marquez Data-Source Connector | Ingest pipeline lineage topologies, run lifecycles, and dataset schemas into Cognee memory graph with forget-on-delete reconciliation | [#351](https://github.com/topoteretes/cognee-community/pull/351) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 
 ---
 
@@ -134,6 +135,7 @@
 | **OpenTelemetry** (`opentelemetry-python`) | SDK Reliability | Guard MultiSpanProcessor against unhandled processor exceptions; verified with real-world GenAI benchmarks | [#5626](https://github.com/open-telemetry/opentelemetry-python/pull/5626) | <img src="https://img.shields.io/badge/Validated-238636?style=flat-square&logo=github&logoColor=white" alt="Validated" /> |
 | **Google DeepMind** (`optax`) | Numerical Optimization | Prevented NaN divergence in Adam/Adamax optimizers under float16 zero-gradients | [#1768](https://github.com/google-deepmind/optax/pull/1768) | <img src="https://img.shields.io/badge/Resolved-238636?style=flat-square&logo=github&logoColor=white" alt="Resolved" /> |
 | **Cognee** (`cognee-community`) | AI Lakehouse Memory | Ingest Apache Iceberg schemas, partition specs, and commit history into Cognee memory graph with forget-on-delete reconciliation | [#348](https://github.com/topoteretes/cognee-community/pull/348) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
+| **Cognee** (`cognee-community`) | AI Pipeline Lineage Memory | Ingest OpenLineage / Marquez topologies, run lifecycles, and dataset schemas into Cognee memory graph with forget-on-delete reconciliation | [#351](https://github.com/topoteretes/cognee-community/pull/351) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 
 <details>
 <summary><b>Show More Open-Source Contributions (Expand 18 Additional Tier-1 & Core Infrastructure PRs)</b></summary>
