@@ -31,16 +31,20 @@ TRACKED_COGNEE_ISSUES = [
 ]
 
 
-def run_cmd(cmd, cwd=None):
+def run_cmd(cmd, cwd=None, retries=3):
     env = dict(os.environ)
     env["HTTPS_PROXY"] = PROXY_URL
     env["HTTP_PROXY"] = PROXY_URL
-    try:
-        res = subprocess.check_output(cmd, cwd=cwd, env=env, stderr=subprocess.STDOUT, text=True)
-        return res.strip()
-    except subprocess.CalledProcessError as e:
-        print(f"[ERROR] Command {' '.join(cmd)} failed: {e.output}", file=sys.stderr)
-        return None
+    for attempt in range(1, retries + 1):
+        try:
+            res = subprocess.check_output(cmd, cwd=cwd, env=env, stderr=subprocess.STDOUT, text=True)
+            return res.strip()
+        except subprocess.CalledProcessError as e:
+            if attempt < retries:
+                time.sleep(2 * attempt)
+                continue
+            print(f"[ERROR] Command {' '.join(cmd)} failed after {retries} attempts: {e.output}", file=sys.stderr)
+            return None
 
 
 def check_pr_status(repo, number):
