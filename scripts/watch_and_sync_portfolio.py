@@ -17,6 +17,7 @@ SUBMIT_SCRIPT = "/Users/soumyajitghosh/.gemini/antigravity/brain/90b42fc2-87e1-4
 TRACKED_PRS = [
     {"repo": "topoteretes/cognee-community", "number": 348, "name": "Apache Iceberg Connector"},
     {"repo": "topoteretes/cognee-community", "number": 351, "name": "OpenLineage Connector"},
+    {"repo": "topoteretes/cognee-community", "number": 378, "name": "Honeycomb Connector"},
     {"repo": "kestra-io/blueprints", "number": 1299, "name": "DeepEval GenAI Quality Gate"},
     {"repo": "open-telemetry/opentelemetry-python-genai", "number": 836, "name": "OTel GenAI Event Decoupling"},
     {"repo": "BerriAI/litellm", "number": 38277, "name": "LiteLLM Vertex Rerank"},
@@ -26,7 +27,6 @@ TRACKED_PRS = [
 
 TRACKED_COGNEE_ISSUES = [
     {"issue": 5424, "target": "prometheus", "name": "Prometheus Connector"},
-    {"issue": 4781, "target": "honeycomb", "name": "Honeycomb Connector"},
     {"issue": 4773, "target": "redshift", "name": "Amazon Redshift Connector"},
 ]
 
