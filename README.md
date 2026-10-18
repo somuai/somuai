@@ -51,7 +51,7 @@
 
 <p align="center">
   <a href="https://github.com/somuai?tab=achievements">
-    <img src="https://github.githubassets.com/assets/galaxy-brain-default-847262c21056.png" width="75" alt="Galaxy Brain (8 Accepted Answers)" />
+    <img src="https://github.githubassets.com/assets/galaxy-brain-default-847262c21056.png" width="75" alt="Galaxy Brain (9 Accepted Answers)" />
   </a>
   <a href="https://github.com/somuai?tab=achievements">
     <img src="https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png" width="75" alt="Pull Shark (2x Bronze)" />
@@ -68,7 +68,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Galaxy_Brain-8_Accepted_Answers-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Galaxy Brain" /></a>
+  <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Galaxy_Brain-9_Accepted_Answers-38bdf8?style=flat-square&logo=github&logoColor=white" alt="Galaxy Brain" /></a>
   <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Pull_Shark-Bronze_x2-8957e5?style=flat-square&logo=github&logoColor=white" alt="Pull Shark" /></a>
   <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Pair_Extraordinaire-Co--Author-238636?style=flat-square&logo=github&logoColor=white" alt="Pair Extraordinaire" /></a>
   <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Quickdraw-Merged_in_5m-f0883e?style=flat-square&logo=github&logoColor=white" alt="Quickdraw" /></a>
@@ -218,7 +218,7 @@
 | Organization / Repository | Domain & Architecture | Problem / Discussion Highlight | Solution / Discussion | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **Supabase** (`supabase`) | Auth & Data API (PostgREST) | PostgREST rejects valid GoTrue JWT with `PGRST303` (Container NTP clock drift & Haskell `allowedSkewSeconds` bound) | [#51867](https://github.com/supabase/supabase/discussions/51867#discussioncomment-19004116) | <img src="https://img.shields.io/badge/Solution_Delivered-238636?style=flat-square&logo=github&logoColor=white" alt="Solution Delivered" /> |
-| **Supabase** (`supabase`) | Auth & API Gateway (Kong) | HTTP 500 on `/auth/v1/user` after password recovery & CORS header stripping on unhandled upstream errors | [#51866](https://github.com/supabase/supabase/discussions/51866#discussioncomment-19004128) | <img src="https://img.shields.io/badge/Solution_Delivered-238636?style=flat-square&logo=github&logoColor=white" alt="Solution Delivered" /> |
+| **Supabase** (`supabase`) | Auth & API Gateway (Kong) | HTTP 500 on `/auth/v1/user` after password recovery & CORS header stripping on unhandled upstream errors | [#51866](https://github.com/supabase/supabase/discussions/51866#discussioncomment-19004128) | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **Supabase** (`supabase`) | Infra & Disk IO Throttling | Project unhealthy with HTTP 522 on `/network-bans/retrieve` & Disk IO exhaustion runbook | [#50871](https://github.com/supabase/supabase/discussions/50871#discussioncomment-18598070) | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **Ray** (`ray`) | Distributed Data Processing | Float truncation in `split_proportionately` & Hamilton-Hare stratified allocation | [#66472](https://github.com/ray-project/ray/issues/66472#issuecomment-5830889702) | <img src="https://img.shields.io/badge/Solution_Delivered-238636?style=flat-square&logo=github&logoColor=white" alt="Solution Delivered" /> |
 | **Supabase** (`supabase`) | Auth & Management API RBAC | Scoped-token `auth_config_read` policy mismatch & GoTrue runtime provider recovery | [#50819](https://github.com/supabase/supabase/discussions/50819#discussioncomment-18597838) | <img src="https://img.shields.io/badge/Solution_Delivered-238636?style=flat-square&logo=github&logoColor=white" alt="Solution Delivered" /> |
@@ -242,6 +242,7 @@
 
 | Repository | Technical Discussion | Accepted Solution | Solved Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **supabase/supabase** | Supabase Auth returns HTTP 500 on GET /auth/v1/user after password recovery redirect | [#51866](https://github.com/supabase/supabase/discussions/51866#discussioncomment-19004128) | `2026-10-18` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **supabase/supabase** | Disk IO issue | [#50871](https://github.com/supabase/supabase/discussions/50871#discussioncomment-18598070) | `2026-09-25` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **supabase/supabase** | Storage: upload rejected with RLS violation that no policy can satisfy (TO public also fails) | [#50714](https://github.com/supabase/supabase/discussions/50714#discussioncomment-18551115) | `2026-09-22` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **community/community** | Sidebar contributor list shows cached contributor though Insights graph is clean | [#208456](https://github.com/community/community/discussions/208456#discussioncomment-18543396) | `2026-09-21` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
