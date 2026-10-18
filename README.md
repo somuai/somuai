@@ -242,12 +242,21 @@
 
 | Repository | Technical Discussion | Accepted Solution | Solved Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **supabase/supabase** | Supabase Auth returns HTTP 500 on GET /auth/v1/user after password recovery redirect | [#51866](https://github.com/supabase/supabase/discussions/51866#discussioncomment-19004128) | `2026-10-18` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
+| **supabase/supabase** | Supabase Auth returns HTTP 500 on GET /auth/v1/user after password recovery redirect | [#51866](https://github.com/supabase/supabase/discussions/51866#discussioncomment-19004128) | `2026-10-17` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **supabase/supabase** | Disk IO issue | [#50871](https://github.com/supabase/supabase/discussions/50871#discussioncomment-18598070) | `2026-09-25` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **supabase/supabase** | Storage: upload rejected with RLS violation that no policy can satisfy (TO public also fails) | [#50714](https://github.com/supabase/supabase/discussions/50714#discussioncomment-18551115) | `2026-09-22` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **community/community** | Sidebar contributor list shows cached contributor though Insights graph is clean | [#208456](https://github.com/community/community/discussions/208456#discussioncomment-18543396) | `2026-09-21` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
 | **community/community** | macOS 27 upgrade and now I can't fetch | [#208386](https://github.com/community/community/discussions/208386#discussioncomment-18530330) | `2026-09-20` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
+
+<details>
+<summary><b>Show More Accepted Solutions (Expand 1 Additional Answers)</b></summary>
+<br />
+
+| Repository | Technical Discussion | Accepted Solution | Solved Date | Status |
+| :--- | :--- | :--- | :--- | :--- |
 | **supabase/supabase** | Managed Shared Supavisor rejects valid custom role credentials after SCRAM verification passes | [#50553](https://github.com/supabase/supabase/discussions/50553#discussioncomment-18525410) | `2026-09-20` | <img src="https://img.shields.io/badge/Accepted_Answer-238636?style=flat-square&logo=github&logoColor=white" alt="Accepted Answer" /> |
+
+</details>
 
 <!-- ACCEPTED_ANSWERS_END -->
 
