@@ -20,6 +20,13 @@ TRACKED_PRS = [
     {"repo": "topoteretes/cognee-community", "number": 378, "name": "Honeycomb Connector"},
     {"repo": "kestra-io/blueprints", "number": 1299, "name": "DeepEval GenAI Quality Gate"},
     {"repo": "open-telemetry/opentelemetry-python-genai", "number": 836, "name": "OTel GenAI Event Decoupling"},
+    {"repo": "open-telemetry/opentelemetry-python-genai", "number": 913, "name": "OTel GenAI Qwen-Agent Tuple Inputs"},
+    {
+        "repo": "open-telemetry/opentelemetry-python",
+        "number": 5626,
+        "name": "OTel SDK MultiSpanProcessor Exception Guard",
+    },
+    {"repo": "modelcontextprotocol/servers", "number": 4742, "name": "MCP Server Non-Root Docker Execution"},
     {"repo": "BerriAI/litellm", "number": 38277, "name": "LiteLLM Vertex Rerank"},
     {"repo": "vllm-project/vllm", "number": 57504, "name": "vLLM InternLM2 Split Opening Marker"},
     {"repo": "vllm-project/vllm", "number": 55371, "name": "vLLM Responses API Boundary Split"},
