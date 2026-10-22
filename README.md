@@ -24,10 +24,11 @@
     <td width="72%" valign="top">
       <p>
         AI Systems Engineer focused on foundation model infrastructure, agentic runtimes, and distributed systems. 
-        Active contributor to Tier-1 open-source machine learning frameworks including Hugging Face Transformers, 
-        Google DeepMind Optax, Google ADK, and Anthropic Model Context Protocol.
+        Active contributor to Tier-1 open-source machine learning and telemetry frameworks including OpenTelemetry, 
+        Hugging Face Transformers, Google DeepMind Optax, Google ADK, and Anthropic Model Context Protocol.
       </p>
       <ul>
+        <li><b>Governance & Community</b>: Member of Standing & Eligible Voter, OpenTelemetry Governance Committee (2026 Elections).</li>
         <li><b>Focus Areas</b>: Rotary Position Embeddings (RoPE), Optimizer Numerical Stability, Multi-Agent Orchestration, High-Throughput Inference.</li>
         <li><b>Engineering Philosophy</b>: Deterministic guardrails, zero-allocation memory paths, clean architectural modularity.</li>
         <li><b>Current Work</b>: Autonomous developer agents, AST-based self-healing pipelines, and real-time LLM gateways.</li>
@@ -73,6 +74,7 @@
   <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Pair_Extraordinaire-Co--Author-238636?style=flat-square&logo=github&logoColor=white" alt="Pair Extraordinaire" /></a>
   <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/Quickdraw-Merged_in_5m-f0883e?style=flat-square&logo=github&logoColor=white" alt="Quickdraw" /></a>
   <a href="https://github.com/somuai?tab=achievements"><img src="https://img.shields.io/badge/YOLO-Merged_Without_Review-db61a2?style=flat-square&logo=github&logoColor=white" alt="YOLO" /></a>
+  <a href="https://github.com/open-telemetry/community/issues/3677#issuecomment-6320970001"><img src="https://img.shields.io/badge/OpenTelemetry_GC-Eligible_Voter_(2026)-000000?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry Governance Committee Eligible Voter" /></a>
 </p>
 
 </div>
