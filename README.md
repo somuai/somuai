@@ -183,10 +183,36 @@
 
 | Repository | Contribution Highlight | Pull Request | Merged Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **open-telemetry/opentelemetry-python-genai** | fix(qwen-agent): accept tuple inputs for messages and content | [#913](https://github.com/open-telemetry/opentelemetry-python-genai/pull/913) | `2026-10-22` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **kestra-io/blueprints** | feat(blueprints): add continuous GenAI evaluation and hallucination regression gate with DeepEval | [#1299](https://github.com/kestra-io/blueprints/pull/1299) | `2026-10-14` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **google/adk-go** | chore(lint): add misspell linter and perform US spelling sweep | [#1465](https://github.com/google/adk-go/pull/1465) | `2026-10-09` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **kestra-io/blueprints** | feat(blueprints): add autonomous multi-agent software engineering & self-healing pipeline | [#604](https://github.com/kestra-io/blueprints/pull/604) | `2026-10-06` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **google/adk-go** | fix(llmagent): clone Tools and Toolsets slices in constructor to prevent backing array aliasing | [#1493](https://github.com/google/adk-go/pull/1493) | `2026-10-06` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+
+<details>
+<summary><b>Show More Merged Contributions (Expand 16 Additional Merged PRs)</b></summary>
+<br />
+
+| Repository | Contribution Highlight | Pull Request | Merged Date | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **kestra-io/blueprints** | feat(blueprints): add automated OpenLineage metadata extraction and Marquez governance pipeline | [#501](https://github.com/kestra-io/blueprints/pull/501) | `2026-10-05` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **kestra-io/blueprints** | feat(blueprints): add continuous GenAI evaluation and prompt guardrail pipeline with Comet Opik | [#437](https://github.com/kestra-io/blueprints/pull/437) | `2026-10-05` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **kestra-io/blueprints** | feat(blueprints): add GitOps PostgreSQL zero-downtime migration verifier and lock risk guard | [#343](https://github.com/kestra-io/blueprints/pull/343) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **kestra-io/blueprints** | feat(blueprints): add autonomous incident triage with multi-provider LLM fallback and Slack escalation | [#342](https://github.com/kestra-io/blueprints/pull/342) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **kestra-io/blueprints** | feat(blueprints): add OpenTelemetry GenAI trace lakehouse pipeline to BigQuery via DuckDB | [#341](https://github.com/kestra-io/blueprints/pull/341) | `2026-10-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **huggingface/transformers** | Fix odd head_dim validation for RoPE configurations | [#48524](https://github.com/huggingface/transformers/pull/48524) | `2026-09-24` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **google/adk-go** | fix(sequentialagent): recurse task_completed injection and rebind Agent in Run and RunLive | [#1510](https://github.com/google/adk-go/pull/1510) | `2026-09-13` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **vllm-project/vllm** | [Bugfix][Spec Decode] Resolve n_predict from text_config for Qwen3.5 multimodal MTP | [#55369](https://github.com/vllm-project/vllm/pull/55369) | `2026-09-07` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **Dokploy/dokploy** | fix(auth): enforce SSO on server-side sign-in endpoints | [#5291](https://github.com/Dokploy/dokploy/pull/5291) | `2026-09-04` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **Syknapse/Contribute-To-This-Project** | Add Soumyajit Ghosh card | [#4736](https://github.com/Syknapse/Contribute-To-This-Project/pull/4736) | `2026-09-01` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **firstcontributions/first-contributions** | docs: add Soumyajit Ghosh to contributors list | [#124195](https://github.com/firstcontributions/first-contributions/pull/124195) | `2026-09-01` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **Dokploy/dokploy** | fix(server): allow '+' and '@' in readValidDirectory path validation | [#5190](https://github.com/Dokploy/dokploy/pull/5190) | `2026-08-26` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **comet-ml/opik** | test(python-sdk): add unit test coverage for IsJson metric | [#8001](https://github.com/comet-ml/opik/pull/8001) | `2026-08-26` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **firstcontributions/first-contributions** | Add Soumyajit Ghosh portfolio to Contributors list | [#123556](https://github.com/firstcontributions/first-contributions/pull/123556) | `2026-08-20` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **Syknapse/Contribute-To-This-Project** | Add contributor card for Soumyajit Ghosh | [#4717](https://github.com/Syknapse/Contribute-To-This-Project/pull/4717) | `2026-08-20` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+| **firstcontributions/first-contributions** | Add Soumyajit Ghosh to Contributors list | [#123511](https://github.com/firstcontributions/first-contributions/pull/123511) | `2026-08-19` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
+
+</details>
 
 <!-- MERGED_PRS_END -->
 
