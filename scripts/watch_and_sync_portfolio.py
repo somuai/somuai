@@ -28,6 +28,8 @@ TRACKED_PRS = [
     },
     {"repo": "modelcontextprotocol/servers", "number": 4742, "name": "MCP Server Non-Root Docker Execution"},
     {"repo": "BerriAI/litellm", "number": 38277, "name": "LiteLLM Vertex Rerank"},
+    {"repo": "anthropics/claude-agent-sdk-python", "number": 1428, "name": "Claude Agent SDK Compaction UUID Remapping"},
+    {"repo": "langchain-ai/deepagents", "number": 7143, "name": "LangChain DeepAgents Reftable Branch Fallback"},
     {"repo": "vllm-project/vllm", "number": 57504, "name": "vLLM InternLM2 Split Opening Marker"},
     {"repo": "vllm-project/vllm", "number": 55371, "name": "vLLM Responses API Boundary Split"},
 ]
