@@ -32,6 +32,7 @@ TRACKED_PRS = [
     {"repo": "langchain-ai/deepagents", "number": 7143, "name": "LangChain DeepAgents Reftable Branch Fallback"},
     {"repo": "vllm-project/vllm", "number": 57504, "name": "vLLM InternLM2 Split Opening Marker"},
     {"repo": "vllm-project/vllm", "number": 55371, "name": "vLLM Responses API Boundary Split"},
+    {"repo": "vllm-project/vllm", "number": 55362, "name": "vLLM MTP Num Speculative Tokens Default"},
 ]
 
 TRACKED_COGNEE_ISSUES = [
