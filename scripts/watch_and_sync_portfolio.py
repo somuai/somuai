@@ -5,9 +5,26 @@ import subprocess
 import sys
 import time
 
-PROXY_URL = "http://127.0.0.1:8989"
-os.environ["HTTPS_PROXY"] = PROXY_URL
-os.environ["HTTP_PROXY"] = PROXY_URL
+import socket
+
+PROXY_HOST = "127.0.0.1"
+PROXY_PORT = 8989
+PROXY_URL = f"http://{PROXY_HOST}:{PROXY_PORT}"
+
+def is_proxy_alive(host=PROXY_HOST, port=PROXY_PORT):
+    try:
+        with socket.create_connection((host, port), timeout=0.5):
+            return True
+    except OSError:
+        return False
+
+USE_PROXY = is_proxy_alive()
+if USE_PROXY:
+    os.environ["HTTPS_PROXY"] = PROXY_URL
+    os.environ["HTTP_PROXY"] = PROXY_URL
+else:
+    os.environ.pop("HTTPS_PROXY", None)
+    os.environ.pop("HTTP_PROXY", None)
 
 SOMUAI_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRIPTS_DIR = os.path.join(SOMUAI_DIR, "scripts")
@@ -43,8 +60,12 @@ TRACKED_COGNEE_ISSUES = [
 
 def run_cmd(cmd, cwd=None, retries=3):
     env = dict(os.environ)
-    env["HTTPS_PROXY"] = PROXY_URL
-    env["HTTP_PROXY"] = PROXY_URL
+    if is_proxy_alive():
+        env["HTTPS_PROXY"] = PROXY_URL
+        env["HTTP_PROXY"] = PROXY_URL
+    else:
+        env.pop("HTTPS_PROXY", None)
+        env.pop("HTTP_PROXY", None)
     for attempt in range(1, retries + 1):
         try:
             res = subprocess.check_output(cmd, cwd=cwd, env=env, stderr=subprocess.STDOUT, text=True)
@@ -132,7 +153,11 @@ def audit_portfolio():
         commit_msg = "docs: sync profile with latest merged contributions and accepted answers [skip ci]"
         run_cmd(["git", "add", "README.md"], cwd=SOMUAI_DIR)
         run_cmd(["git", "commit", "-s", "-m", commit_msg], cwd=SOMUAI_DIR)
-        push_out = run_cmd(["git", "-c", f"http.proxy={PROXY_URL}", "push", "origin", "main"], cwd=SOMUAI_DIR)
+        if is_proxy_alive():
+            push_cmd = ["git", "-c", f"http.proxy={PROXY_URL}", "push", "origin", "main"]
+        else:
+            push_cmd = ["git", "push", "origin", "main"]
+        push_out = run_cmd(push_cmd, cwd=SOMUAI_DIR)
         print(f"  [PUSH] {push_out}")
     else:
         print("  [OK] Profile README is up to date. Zero changes pending.")
