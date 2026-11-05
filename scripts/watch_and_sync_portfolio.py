@@ -61,6 +61,11 @@ TRACKED_PRS = [
     {"repo": "vllm-project/vllm", "number": 55371, "name": "vLLM Responses API Boundary Split"},
     {"repo": "vllm-project/vllm", "number": 55362, "name": "vLLM MTP Num Speculative Tokens Default"},
     {"repo": "wandb/wandb", "number": 12755, "name": "W&B Auto-Gen Artifact Name Length Bound"},
+    {
+        "repo": "sgl-project/sglang",
+        "number": 48680,
+        "name": "SGLang Hybrid Linear Attention Prefill CUDA Graph Guard",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
