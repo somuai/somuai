@@ -43,6 +43,11 @@ TRACKED_PRS = [
         "number": 5626,
         "name": "OTel SDK MultiSpanProcessor Exception Guard",
     },
+    {
+        "repo": "open-telemetry/opentelemetry-python",
+        "number": 5632,
+        "name": "OTel SDK Default View Fallback Conflict Guard",
+    },
     {"repo": "modelcontextprotocol/servers", "number": 4742, "name": "MCP Server Non-Root Docker Execution"},
     {"repo": "BerriAI/litellm", "number": 38277, "name": "LiteLLM Vertex Rerank"},
     {"repo": "anthropics/claude-agent-sdk-python", "number": 1428, "name": "Claude Agent SDK Compaction UUID Remapping"},
@@ -50,6 +55,7 @@ TRACKED_PRS = [
     {"repo": "vllm-project/vllm", "number": 57504, "name": "vLLM InternLM2 Split Opening Marker"},
     {"repo": "vllm-project/vllm", "number": 55371, "name": "vLLM Responses API Boundary Split"},
     {"repo": "vllm-project/vllm", "number": 55362, "name": "vLLM MTP Num Speculative Tokens Default"},
+    {"repo": "wandb/wandb", "number": 12755, "name": "W&B Auto-Gen Artifact Name Length Bound"},
 ]
 
 TRACKED_COGNEE_ISSUES = [
