@@ -53,6 +53,11 @@ TRACKED_PRS = [
     {"repo": "BerriAI/litellm", "number": 38277, "name": "LiteLLM Vertex Rerank"},
     {
         "repo": "anthropics/claude-agent-sdk-python",
+        "number": 1420,
+        "name": "Claude Agent SDK Compaction Fork Selection (Co-Authored)",
+    },
+    {
+        "repo": "anthropics/claude-agent-sdk-python",
         "number": 1428,
         "name": "Claude Agent SDK Compaction UUID Remapping",
     },
