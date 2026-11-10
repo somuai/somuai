@@ -29,9 +29,9 @@
       </p>
       <ul>
         <li><b>Governance & Community</b>: Member of Standing & Eligible Voter, OpenTelemetry Governance Committee (2026 Elections).</li>
-        <li><b>Focus Areas</b>: Rotary Position Embeddings (RoPE), Optimizer Numerical Stability, Multi-Agent Orchestration, High-Throughput Inference.</li>
+        <li><b>Focus Areas</b>: Rotary Position Embeddings (RoPE), CUDA Graphs & Inference Runtimes, Optimizer Numerical Stability, Multi-Agent Memory & Compaction.</li>
         <li><b>Engineering Philosophy</b>: Deterministic guardrails, zero-allocation memory paths, clean architectural modularity.</li>
-        <li><b>Current Work</b>: Autonomous developer agents, AST-based self-healing pipelines, and real-time LLM gateways.</li>
+        <li><b>Current Work</b>: Foundation model inference kernels, autonomous developer agents, AST-based self-healing pipelines, and real-time LLM gateways.</li>
       </ul>
     </td>
     <td width="28%" align="center" valign="middle">
@@ -143,12 +143,13 @@
 | **LiteLLM** (`litellm`) | Vertex AI Rerank API | Populate document text in Vertex AI rerank response when `return_documents` is true | [#38277](https://github.com/BerriAI/litellm/pull/38277) | <img src="https://img.shields.io/badge/CI_Passed-238636?style=flat-square&logo=githubactions&logoColor=white" alt="CI Passed" /> |
 | **Google** (`adk-go`) | Linter & Code Quality | Added misspell linter, US spelling sweep, and HTTP cassette isolation | [#1465](https://github.com/google/adk-go/pull/1465) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **OpenTelemetry** (`opentelemetry-python`) | SDK Reliability | Guard MultiSpanProcessor against unhandled processor exceptions; verified with real-world GenAI benchmarks | [#5626](https://github.com/open-telemetry/opentelemetry-python/pull/5626) | <img src="https://img.shields.io/badge/Approved-238636?style=flat-square&logo=github&logoColor=white" alt="Approved" /> |
+| **Weights & Biases** (`wandb`) | ML Observability & Artifacts | Bounded auto-generated internal artifact names to 128 chars with middle truncation | [#12755](https://github.com/wandb/wandb/pull/12755) | <img src="https://img.shields.io/badge/CI_Passed-238636?style=flat-square&logo=githubactions&logoColor=white" alt="CI Passed" /> |
 | **Google DeepMind** (`optax`) | Numerical Optimization | Prevented NaN in `scale_by_adamax` on float16 zero-gradient steps | [#1768](https://github.com/google-deepmind/optax/pull/1768) | <img src="https://img.shields.io/badge/Resolved-238636?style=flat-square&logo=github&logoColor=white" alt="Resolved" /> |
 | **Cognee** (`cognee-community`) | AI Lakehouse Memory | Ingest Apache Iceberg schemas, partition specs, and commit history into Cognee memory graph with forget-on-delete reconciliation | [#348](https://github.com/topoteretes/cognee-community/pull/348) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **Cognee** (`cognee-community`) | AI Pipeline Lineage Memory | Ingest OpenLineage / Marquez topologies, run lifecycles, and dataset schemas into Cognee memory graph with forget-on-delete reconciliation | [#351](https://github.com/topoteretes/cognee-community/pull/351) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 
 <details>
-<summary><b>Show More Open-Source Contributions (Expand 20 Additional Tier-1 & Core Infrastructure PRs)</b></summary>
+<summary><b>Show More Open-Source Contributions (Expand 19 Additional Tier-1 & Core Infrastructure PRs)</b></summary>
 <br />
 
 | Organization / Repository | Focus Area | Contribution Highlights | Pull Request | Status |
@@ -159,7 +160,6 @@
 | **Hugging Face** (`transformers`) | Trainer & Token Alignment | Prevented `bos_token_id` erasure in `align_special_tokens` for Qwen and Falcon configs (resolved in #48708) | [#48598](https://github.com/huggingface/transformers/pull/48598) | <img src="https://img.shields.io/badge/Resolved_Upstream-8957e5?style=flat-square&logo=git&logoColor=white" alt="Resolved Upstream" /> |
 | **OpenTelemetry** (`opentelemetry-python-contrib`) | gRPC Server Interceptor | Prevent duplicate exception events on server spans via record_exception=False | [#5078](https://github.com/open-telemetry/opentelemetry-python-contrib/pull/5078) | <img src="https://img.shields.io/badge/In_Review-38bdf8?style=flat-square&logo=github&logoColor=white" alt="In Review" /> |
 | **OpenTelemetry** (`opentelemetry-python`) | Metrics & Views | Character pattern wildcard rejection in View instrument_name (#5664, landed in #5674) | [#5673](https://github.com/open-telemetry/opentelemetry-python/pull/5673) | <img src="https://img.shields.io/badge/Landed_Upstream-8957e5?style=flat-square&logo=git&logoColor=white" alt="Landed Upstream" /> |
-| **Weights & Biases** (`wandb`) | Artifact Subsystem | Bounded auto-generated internal artifact names to 128 chars with middle truncation | [#12755](https://github.com/wandb/wandb/pull/12755) | <img src="https://img.shields.io/badge/CI_Passed-238636?style=flat-square&logo=githubactions&logoColor=white" alt="CI Passed" /> |
 | **Documenso** (`documenso`) | Form Field Validation | Validated fieldMeta configuration in updateEnvelopeFields (adopted in #3427) | [#3318](https://github.com/documenso/documenso/pull/3318) | <img src="https://img.shields.io/badge/Adopted_Upstream-8957e5?style=flat-square&logo=git&logoColor=white" alt="Adopted Upstream" /> |
 | **OpenContainers** (`runc`) | Container Runtimes | Engineered kernel VFS `/proc` fallback in `FchmodFile` for custom Linux 5.10 kernels | [#5447](https://github.com/opencontainers/runc/pull/5447) | <img src="https://img.shields.io/badge/Concluded-6e7681?style=flat-square&logo=github&logoColor=white" alt="Concluded" /> |
 | **Keras** (`keras`) | Core API & Ops | Exported `random` submodule and operations under public `keras.ops` namespace | [#23580](https://github.com/keras-team/keras/pull/23580) | <img src="https://img.shields.io/badge/Closed-6e7681?style=flat-square&logo=github&logoColor=white" alt="Closed" /> |
