@@ -124,7 +124,7 @@ def check_cognee_assignment(issue_number):
 
 def audit_portfolio():
     print("=" * 60)
-    print(f"PORTFOLIO AUDIT START: {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}")
+    print(f"KRITTIKA SENTINEL AUDIT START: {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}")
     print("=" * 60)
 
     # 1. Audit Tracked PRs
@@ -184,7 +184,7 @@ def audit_portfolio():
         print("  [OK] Profile README is up to date. Zero changes pending.")
 
     print("\n" + "=" * 60)
-    print(f"PORTFOLIO AUDIT COMPLETE: {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}")
+    print(f"KRITTIKA SENTINEL AUDIT COMPLETE: {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}")
     print("=" * 60)
 
 
