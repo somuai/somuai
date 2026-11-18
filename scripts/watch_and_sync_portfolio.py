@@ -71,6 +71,11 @@ TRACKED_PRS = [
         "number": 48680,
         "name": "SGLang Hybrid Linear Attention Prefill CUDA Graph Guard",
     },
+    {
+        "repo": "google/adk-python",
+        "number": 8238,
+        "name": "Google ADK Multi-Run Aggregator Unscored Runs Guard",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
