@@ -76,6 +76,11 @@ TRACKED_PRS = [
         "number": 8238,
         "name": "Google ADK Multi-Run Aggregator Unscored Runs Guard",
     },
+    {
+        "repo": "huggingface/smolagents",
+        "number": 3209,
+        "name": "Smolagents ToolCallingAgent Early Exit Memory Guard",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
