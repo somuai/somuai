@@ -81,6 +81,11 @@ TRACKED_PRS = [
         "number": 3209,
         "name": "Smolagents ToolCallingAgent Early Exit Memory Guard",
     },
+    {
+        "repo": "huggingface/smolagents",
+        "number": 3217,
+        "name": "Smolagents Non-Streaming Model Generate Omitted Usage Guard",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
