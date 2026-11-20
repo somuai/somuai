@@ -101,6 +101,11 @@ TRACKED_PRS = [
         "number": 4722,
         "name": "OpenLLMetry Google GenAI Metric Token None Guard",
     },
+    {
+        "repo": "ollama/ollama",
+        "number": 19797,
+        "name": "Ollama OpenAI Middleware Streaming Error Propagation Guard",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
