@@ -91,6 +91,16 @@ TRACKED_PRS = [
         "number": 3217,
         "name": "Smolagents Non-Streaming Model Generate Omitted Usage Guard",
     },
+    {
+        "repo": "google/adk-go",
+        "number": 2458,
+        "name": "Google ADK-Go Stream Ending Partial Event Clone Guard",
+    },
+    {
+        "repo": "traceloop/openllmetry",
+        "number": 4722,
+        "name": "OpenLLMetry Google GenAI Metric Token None Guard",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
