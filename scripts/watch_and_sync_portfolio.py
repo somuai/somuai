@@ -77,6 +77,11 @@ TRACKED_PRS = [
         "name": "Google ADK Multi-Run Aggregator Unscored Runs Guard",
     },
     {
+        "repo": "google/adk-python",
+        "number": 8266,
+        "name": "Google ADK SqliteSessionService Batch Append Events",
+    },
+    {
         "repo": "huggingface/smolagents",
         "number": 3209,
         "name": "Smolagents ToolCallingAgent Early Exit Memory Guard",
