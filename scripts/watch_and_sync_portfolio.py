@@ -106,6 +106,11 @@ TRACKED_PRS = [
         "number": 19797,
         "name": "Ollama OpenAI Middleware Streaming Error Propagation Guard",
     },
+    {
+        "repo": "vllm-project/vllm",
+        "number": 69220,
+        "name": "vLLM Jamba Tool Parser Start Delta Content Guard",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
