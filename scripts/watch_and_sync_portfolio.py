@@ -127,6 +127,11 @@ def run_cmd(cmd, cwd=None, retries=3):
     else:
         env.pop("HTTPS_PROXY", None)
         env.pop("HTTP_PROXY", None)
+    
+    # Resolve git binary to Homebrew if available to avoid macOS Xcode license traps
+    if cmd and cmd[0] == "git" and os.path.exists("/opt/homebrew/bin/git"):
+        cmd = ["/opt/homebrew/bin/git"] + list(cmd[1:])
+
     for attempt in range(1, retries + 1):
         try:
             res = subprocess.check_output(cmd, cwd=cwd, env=env, stderr=subprocess.STDOUT, text=True)
@@ -183,11 +188,11 @@ def audit_portfolio():
     # 2. If any PR merged, trigger sync_merged_prs.py
     if any_merged:
         print("\n[ACTION] Detected MERGED PR. Synchronizing merged PRs feed in README...")
-        sync_merged_cmd = ["/usr/bin/python3", os.path.join(SCRIPTS_DIR, "sync_merged_prs.py")]
+        sync_merged_cmd = [sys.executable, os.path.join(SCRIPTS_DIR, "sync_merged_prs.py")]
         run_cmd(sync_merged_cmd, cwd=SOMUAI_DIR)
     else:
         # Run sync_merged_prs.py anyway to ensure feed matches upstream state
-        sync_merged_cmd = ["/usr/bin/python3", os.path.join(SCRIPTS_DIR, "sync_merged_prs.py")]
+        sync_merged_cmd = [sys.executable, os.path.join(SCRIPTS_DIR, "sync_merged_prs.py")]
         run_cmd(sync_merged_cmd, cwd=SOMUAI_DIR)
 
     # 3. Check Cognee Assignments & Instant PR Trigger
@@ -203,7 +208,7 @@ def audit_portfolio():
 
     # 4. Check Accepted Answers ("Mark for answer")
     print("\n[STEP 3] Auditing Accepted Discussion Answers...")
-    sync_answers_cmd = ["/usr/bin/python3", os.path.join(SCRIPTS_DIR, "sync_accepted_answers.py")]
+    sync_answers_cmd = [sys.executable, os.path.join(SCRIPTS_DIR, "sync_accepted_answers.py")]
     run_cmd(sync_answers_cmd, cwd=SOMUAI_DIR)
 
     # 5. Check if README.md was modified and commit/push
