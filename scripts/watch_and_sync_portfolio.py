@@ -141,6 +141,11 @@ TRACKED_PRS = [
         "number": 4750,
         "name": "OpenLLMetry LangChain & LlamaIndex Instruments Extra Alignment",
     },
+    {
+        "repo": "crewAIInc/crewAI",
+        "number": 9736,
+        "name": "CrewAI Flow Checkpoint Restore BaseModel & Dataclass Output Preservation",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
