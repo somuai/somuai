@@ -111,6 +111,11 @@ TRACKED_PRS = [
         "number": 69220,
         "name": "vLLM Jamba Tool Parser Start Delta Content Guard",
     },
+    {
+        "repo": "ray-project/ray",
+        "number": 68523,
+        "name": "Ray Serve HAProxy Shutdown Coalesce Race Guard",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
