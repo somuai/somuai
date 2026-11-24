@@ -131,6 +131,16 @@ TRACKED_PRS = [
         "number": 10955,
         "name": "DSPy ChatAdapter & StreamListener Header Whitespace Tolerance",
     },
+    {
+        "repo": "ml-explore/mlx-lm",
+        "number": 2105,
+        "name": "MLX LM Server Request Timeout & Health Compute Probe",
+    },
+    {
+        "repo": "traceloop/openllmetry",
+        "number": 4750,
+        "name": "OpenLLMetry LangChain & LlamaIndex Instruments Extra Alignment",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
