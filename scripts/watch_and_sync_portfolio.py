@@ -121,6 +121,16 @@ TRACKED_PRS = [
         "number": 8022,
         "name": "Chroma OpenAPI HealthCheck Response Schema Alignment",
     },
+    {
+        "repo": "langchain-ai/langgraph",
+        "number": 9784,
+        "name": "LangGraph Conditional Edge Sequence Literal Inference",
+    },
+    {
+        "repo": "stanfordnlp/dspy",
+        "number": 10955,
+        "name": "DSPy ChatAdapter & StreamListener Header Whitespace Tolerance",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
