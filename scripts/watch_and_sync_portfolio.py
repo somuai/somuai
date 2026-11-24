@@ -116,6 +116,11 @@ TRACKED_PRS = [
         "number": 68523,
         "name": "Ray Serve HAProxy Shutdown Coalesce Race Guard",
     },
+    {
+        "repo": "chroma-core/chroma",
+        "number": 8022,
+        "name": "Chroma OpenAPI HealthCheck Response Schema Alignment",
+    },
 ]
 
 TRACKED_COGNEE_ISSUES = [
