@@ -188,18 +188,19 @@
 
 | Repository | Contribution Highlight | Pull Request | Merged Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **huggingface/smolagents** | fix(models): guard against None usage in non-streaming model generate | [#3217](https://github.com/huggingface/smolagents/pull/3217) | `2026-11-24` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **open-telemetry/opentelemetry-python** | fix(sdk): catch and log unhandled exceptions in MultiSpanProcessor | [#5626](https://github.com/open-telemetry/opentelemetry-python/pull/5626) | `2026-11-19` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **open-telemetry/opentelemetry-python-genai** | [google-genai, util-genai] Decouple event emission and set event severity to DEBUG (#619) | [#836](https://github.com/open-telemetry/opentelemetry-python-genai/pull/836) | `2026-10-29` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **open-telemetry/opentelemetry-python-genai** | fix(qwen-agent): accept tuple inputs for messages and content | [#913](https://github.com/open-telemetry/opentelemetry-python-genai/pull/913) | `2026-10-22` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add continuous GenAI evaluation and hallucination regression gate with DeepEval | [#1299](https://github.com/kestra-io/blueprints/pull/1299) | `2026-10-14` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
-| **google/adk-go** | chore(lint): add misspell linter and perform US spelling sweep | [#1465](https://github.com/google/adk-go/pull/1465) | `2026-10-09` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 
 <details>
-<summary><b>Show More Merged Contributions (Expand 20 Additional Merged PRs)</b></summary>
+<summary><b>Show More Merged Contributions (Expand 21 Additional Merged PRs)</b></summary>
 <br />
 
 | Repository | Contribution Highlight | Pull Request | Merged Date | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| **google/adk-go** | chore(lint): add misspell linter and perform US spelling sweep | [#1465](https://github.com/google/adk-go/pull/1465) | `2026-10-09` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add autonomous multi-agent software engineering & self-healing pipeline | [#604](https://github.com/kestra-io/blueprints/pull/604) | `2026-10-06` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **google/adk-go** | fix(llmagent): clone Tools and Toolsets slices in constructor to prevent backing array aliasing | [#1493](https://github.com/google/adk-go/pull/1493) | `2026-10-06` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
 | **kestra-io/blueprints** | feat(blueprints): add automated OpenLineage metadata extraction and Marquez governance pipeline | [#501](https://github.com/kestra-io/blueprints/pull/501) | `2026-10-05` | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=git&logoColor=white" alt="Merged" /> |
