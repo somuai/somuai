@@ -162,7 +162,7 @@ def run_cmd(cmd, cwd=None, retries=3):
     else:
         env.pop("HTTPS_PROXY", None)
         env.pop("HTTP_PROXY", None)
-    
+
     # Resolve git binary to Homebrew if available to avoid macOS Xcode license traps
     if cmd and cmd[0] == "git" and os.path.exists("/opt/homebrew/bin/git"):
         cmd = ["/opt/homebrew/bin/git"] + list(cmd[1:])
