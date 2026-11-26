@@ -148,11 +148,6 @@ TRACKED_PRS = [
     },
 ]
 
-TRACKED_COGNEE_ISSUES = [
-    {"issue": 5424, "target": "prometheus", "name": "Prometheus Connector"},
-    {"issue": 4773, "target": "redshift", "name": "Amazon Redshift Connector"},
-]
-
 
 def run_cmd(cmd, cwd=None, retries=3):
     env = dict(os.environ)
@@ -190,18 +185,6 @@ def check_pr_status(repo, number):
         return None
 
 
-def check_cognee_assignment(issue_number):
-    cmd = ["gh", "issue", "view", str(issue_number), "--repo", "topoteretes/cognee", "--json", "assignees,state"]
-    out = run_cmd(cmd)
-    if not out:
-        return []
-    try:
-        data = json.loads(out)
-        return [a["login"].lower() for a in data.get("assignees", [])]
-    except Exception:
-        return []
-
-
 def audit_portfolio():
     print("=" * 60)
     print(f"KRITTIKA SENTINEL AUDIT START: {time.strftime('%Y-%m-%d %H:%M:%S UTC', time.gmtime())}")
@@ -230,24 +213,13 @@ def audit_portfolio():
         sync_merged_cmd = [sys.executable, os.path.join(SCRIPTS_DIR, "sync_merged_prs.py")]
         run_cmd(sync_merged_cmd, cwd=SOMUAI_DIR)
 
-    # 3. Check Cognee Assignments & Instant PR Trigger
-    print("\n[STEP 2] Auditing Cognee Connector Assignments...")
-    for item in TRACKED_COGNEE_ISSUES:
-        assignees = check_cognee_assignment(item["issue"])
-        print(f"  - {item['name']} (topoteretes/cognee#{item['issue']}): assignees={assignees}")
-        if "somuai" in assignees:
-            print(f"  [TRIGGER] Issue #{item['issue']} is assigned to @somuai! Opening upstream PR...")
-            if os.path.exists(SUBMIT_SCRIPT):
-                res = run_cmd([SUBMIT_SCRIPT, item["target"]])
-                print(f"  [SUBMIT RESULT] {res}")
-
-    # 4. Check Accepted Answers ("Mark for answer")
-    print("\n[STEP 3] Auditing Accepted Discussion Answers...")
+    # 3. Check Accepted Answers ("Mark for answer")
+    print("\n[STEP 2] Auditing Accepted Discussion Answers...")
     sync_answers_cmd = [sys.executable, os.path.join(SCRIPTS_DIR, "sync_accepted_answers.py")]
     run_cmd(sync_answers_cmd, cwd=SOMUAI_DIR)
 
-    # 5. Check if README.md was modified and commit/push
-    print("\n[STEP 4] Checking for README.md changes...")
+    # 4. Check if README.md was modified and commit/push
+    print("\n[STEP 3] Checking for README.md changes...")
     diff_out = run_cmd(["git", "diff", "--name-only", "README.md"], cwd=SOMUAI_DIR)
     if diff_out and "README.md" in diff_out:
         print("  [UPDATE] README.md has changed. Committing and pushing...")
