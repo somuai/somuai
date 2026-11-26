@@ -146,6 +146,16 @@ TRACKED_PRS = [
         "number": 9736,
         "name": "CrewAI Flow Checkpoint Restore BaseModel & Dataclass Output Preservation",
     },
+    {
+        "repo": "pydantic/pydantic-ai",
+        "number": 14677,
+        "name": "Pydantic AI Streamed Model Error Chat Span Recording",
+    },
+    {
+        "repo": "pydantic/pydantic-ai",
+        "number": 14678,
+        "name": "Pydantic AI PrefixTools Wrapper Toolset Added-Tool Prefixing",
+    },
 ]
 
 
