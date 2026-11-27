@@ -156,6 +156,11 @@ TRACKED_PRS = [
         "number": 14678,
         "name": "Pydantic AI PrefixTools Wrapper Toolset Added-Tool Prefixing",
     },
+    {
+        "repo": "open-telemetry/opentelemetry-python-contrib",
+        "number": 5388,
+        "name": "OTel Instrumentation Skip Auto-Discovery When OTEL_CONFIG_FILE Set",
+    },
 ]
 
 
